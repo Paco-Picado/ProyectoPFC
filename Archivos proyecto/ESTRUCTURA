@@ -1,4 +1,5 @@
-Ejecutables: está el servidor compilado en .jar (ejecutar con el comando java -jar servidor.jar)
+ejecutables/servidor: está el servidor compilado en .jar (ejecutar con el comando java -jar servidor.jar)
+ejecutables/cliente: apk del cliente.
 
 Proyectos: proyectos
 	-Servidor: servidor/ServidorCultivos 
