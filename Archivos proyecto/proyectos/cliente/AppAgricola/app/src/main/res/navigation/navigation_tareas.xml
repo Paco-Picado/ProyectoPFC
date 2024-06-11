@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_tareas"
+    app:startDestination="@id/calendarioFragment">
+    <fragment
+        android:id="@+id/calendarioFragment"
+        android:name="com.example.appagricola.tareasActivity.calendario.CalendarioFragment"
+        android:label="fragment_calendario"
+        tools:layout="@layout/fragment_calendario" >
+        <action
+            android:id="@+id/action_calendarioFragment_to_tareasFragment"
+            app:destination="@id/tareasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tareasFragment"
+        android:name="com.example.appagricola.tareasActivity.listaTareas.TareasFragment"
+        android:label="fragment_tareas"
+        tools:layout="@layout/fragment_tareas" >
+        <action
+            android:id="@+id/action_tareasFragment_to_crearTareaFragment"
+            app:destination="@id/crearTareaFragment" />
+        <action
+            android:id="@+id/action_tareasFragment_to_calendarioFragment"
+            app:destination="@id/calendarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearTareaFragment"
+        android:name="com.example.appagricola.tareasActivity.crearTarea.CrearTareaFragment"
+        android:label="fragment_crear_tarea"
+        tools:layout="@layout/fragment_crear_tarea" >
+        <action
+            android:id="@+id/action_crearTareaFragment_to_tareasFragment"
+            app:destination="@id/tareasFragment" />
+    </fragment>
+</navigation>

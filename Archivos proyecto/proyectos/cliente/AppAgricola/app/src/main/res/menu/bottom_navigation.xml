@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentoMisCultivos"
+        android:icon="@drawable/ic_plant"
+        android:title="Mis cultivos"/>
+    <item
+        android:id="@+id/fragmentoNuevoCultivo"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Nuevo cultivo"/>
+    <item
+        android:id="@+id/fragmentoConfiguracion"
+        android:icon="@drawable/settings"
+        android:title="Configuración"/>
+</menu>

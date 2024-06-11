@@ -1,0 +1,15 @@
+Ejecutables: está el servidor compilado en .jar (ejecutar con el comando java -jar servidor.jar)
+
+Proyectos: proyectos
+	-Servidor: servidor/ServidorCultivos 
+		* clave: carpeta con las claves que utiliza el servidor para crear el SSLServerSocket.	
+		* lib: librerias externas necesarias para el funcionamiento del servidor.
+		* src: paquetes con el código fuente.
+		
+	-En la carpeta Servidor está la carpeta TablasBD con las tablas de las base de datos.		
+	
+	-Cliente: cliente/AppAgricola
+		* Código Fuente: AppAgricola/src/main/java/com/example/appagricola
+		* Recursos gráficos app, layouts, colores, pantallas : AppAgricola/src/main/res
+		* Tablas de Base de datos: AppAgricola/src/main/assets
+		* Claves para SSLSocket: AppAgricola/src/main/assets

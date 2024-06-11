@@ -1,0 +1,2 @@
+Clave Privada: clavePrivada.pk12 alias: privada contraseña:123qwe
+Clave Publica  clavePublica.pk12 alias: publica contraseña: 123456
